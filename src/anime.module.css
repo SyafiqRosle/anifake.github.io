@@ -1,0 +1,123 @@
+h2{
+    text-align:center;
+}
+.animetitle{
+    position:absolute;
+    top:0%;
+    margin:10px;
+    font-size: 16px;
+    backface-visibility: hidden;
+}
+
+
+.pic{
+    left:0%;
+    bottom:0%;
+    position:absolute;
+    width:240px;
+    border-radius: 0px 0px 10px 10px;
+
+    backface-visibility: hidden;
+}
+.desc{
+    display:none;
+}
+.anim_res:hover .desc{
+    position: absolute;
+    background:gray;
+   
+    display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 1.4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.anim_res{
+    position:relative;
+    width:250px;
+    height:400px;
+    
+    box-shadow:0px 5px 20px gray;
+
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:white;
+    align-items: center;
+}
+
+.anim{
+    position: absolute;
+    
+    border-radius:10px;
+    box-shadow:0px 5px 20px gray;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:white;
+    align-items: center;
+
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.main{
+    position:relative;
+    width:240px;
+    height:400px;
+    margin:40px;
+    
+}
+.synopsis{
+    top:10px;
+    position:absolute;
+    text-align: center;
+    display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 1.4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     
+}
+.anim:hover{
+    display:block;
+    position:absolute;
+
+    color:black;
+    background:whitesmoke;
+
+    transform:rotateY(180deg);
+}
+
+.front{
+    
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+
+}
+.back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+}

@@ -1,0 +1,252 @@
+.App{
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  min-height:100vh;
+}
+.header{
+  position:relative;
+}
+
+.OngoingHeader{
+  font-size:30px;
+  font-family: 'Segoe UI';
+  color:white;
+  font-weight:bold;
+  margin-top:0px;
+  text-align: center;
+}
+h1{
+  font-family: 'Segoe UI';
+  
+  font-weight:bold;
+  display:inline;
+}
+.create{
+  font-weight:bold;
+  font-size:90px;
+  
+  line-height: 0.6em;
+  text-align: center;
+  color:#CB2D6F;
+}
+.every{
+  font-weight:bold;
+  font-size:90px;
+  
+  line-height: 0em;
+  text-align: center;
+  color:#CB2D6F;
+
+}
+p{
+  color:white;
+  
+}
+.for{
+  font-weight:bold;
+  font-size:80px;
+  
+  line-height: 0.0em;
+  text-align: center;
+  color:whitesmoke;
+
+}
+.fake{
+  font-size:100px;
+  color: aquamarine;
+}
+.header-title{
+  font-size: 90px;
+  color:white;
+  font-family: 'Glacial Indifference';
+  font-weight: 500;
+}
+.search-bar{
+  border:none;
+  background:none;
+  outline:none;
+  color:white;
+  width:0px;
+  border:none;
+  padding:10px;
+  font-size: 18px;
+  transition: 0.4s;
+  float:left;
+  line-height:45px;
+  font-family:  'Calibri';
+
+}
+.white button{
+  position: absolute;
+  top:60%;
+  left:17%;
+  font-family: 'Glacial Indifference';
+  font-size:42px;
+  font-weight: 500;
+  margin-top:12px;
+  margin-right:10px;
+  color:white;
+  background: #243949;
+  border:none;
+  border-radius:40px;
+  width:250px;
+  height:80px;
+  float:right;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button{
+  font-size:16px;
+  font-weight: bold;
+  margin-top:12px;
+  margin-right:10px;
+  color:white;
+  background: lightseagreen;
+  border:none;
+  border-radius:40px;
+  width:65px;
+  height:45px;
+  float:right;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-form{
+  position:absolute;
+  top:160px;
+  left:20%;
+  border-radius:40px;
+  background:#2f3640;
+  min-height: 9vh; 
+}
+.search-form:hover .search-bar{
+  width:200px;
+}
+
+.SearchResult{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+.Ongoing{
+  box-shadow:0px 5px 20px gray;
+  margin:0px 10px 10px 0px;
+  border-radius: 0px 10px;
+  min-height:1000px;
+  box-sizing: border-box;
+  background-color:beige;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  display: flex;
+  
+}
+
+.tabContainer{
+  
+  width:100%;
+  height:200px;
+}
+.tabContainer .buttonContainer{
+  height:18%;
+  
+ 
+}
+.tabContainer .buttonContainer button{
+  color:white;
+  width:14%;
+  height:100%;
+  float:left;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  
+  font-family: 'Century Gothic';
+  font-size:18px;
+  
+  background-color :#14A098;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+.tabContainer .buttonContainer button:hover{
+  color:black;
+  background-color: beige;
+  border-radius: 10px 10px 0px 0px;
+ 
+  
+  
+}
+
+
+.kokoro{
+  opacity:1;
+  position: absolute;
+  right:0%;
+  top:10%;
+  width:35%;
+ 
+
+}
+.cool{
+  position:relative;
+  margin-top:170px;
+  background-color:#CB2D6F;
+  height:600px;
+}
+.ako{
+  position: absolute;
+  right:0%;
+  top:0%;
+  margin-top:0px;
+  margin-right:0px;
+  
+  width:80%;
+}
+.container{
+  width:50%;
+  position:relative;
+  float:right;
+}
+.white{
+  height:100%;
+  width:50%;
+  float:left;
+  background-color:#ccc;
+  font-weight:bold;
+  font-size:45px;
+ 
+  font-family: 'Glacial Indifference';
+}
+p2{
+  position:absolute;
+  margin-left:140px;
+  font-weight:500;
+  font-size:50px;
+  color:white;
+  line-height: 4em;
+  
+}
+.white p{
+  margin-left:20px;
+  font-weight:500;
+  font-size:30px;
+  
+}
+.white h4{
+  margin-left:20px;
+  font-weight:bold;
+  color:#ac3b61;
+  font-family:'Glacial Indifference';
+  margin-bottom:0;
+}
+.Bottom{
+  padding-top:80px;
+  background:#12CBC4;
+  margin-top:0;
+  height:2000px;
+
+}
